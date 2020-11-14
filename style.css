@@ -1,0 +1,87 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 59, 71);
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 800px;
+}
+
+.navBar {
+    display: flex;
+    padding: 50px 50px 25px 50px;
+}
+
+.navButton {
+    background-color: rgb(86, 86, 98);
+    color: silver;
+    text-decoration: none;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.navButton.current {
+    background-color: rgb(82, 168, 139);
+    color: white;
+}
+
+.navButton:hover {
+    background-color: rgb(69, 143, 118);
+}
+
+h2 {
+    color: white;
+    padding: 25px 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.formContainer {
+    display: grid;
+    width: 100%;
+    padding: 0px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formElement {
+    padding: 10px 0px;
+}
+
+.inputField {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    border-color: silver;
+    color: silver;
+    background-color: rgb(29, 59, 71);
+    caret-color: silver;
+}
+
+.icon {
+    float: right;
+    margin-top: -32px;
+    position: relative;
+  }
+
+#signUpButton, #logInButton {
+    background-color: rgb(82, 168, 139);
+    color: white;
+    border: none;
+    width: 680px;
+    padding: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.asterisk {
+    color: rgb(69, 143, 118);
+}
+
+*:focus {
+    outline: none;
+}

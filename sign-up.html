@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <div class="navBar">
+            <a href="sign-up.html" class="navButton current">Sign Up</a>
+            <a href="login.html" class="navButton">Log In</a>
+        </div>
+        <h2>
+            Sign Up for Free
+        </h2>
+        <div class="formContainer">
+            <form>
+                <div class="formElement firstName">
+                    <label for="firstName">First Name<span class="asterisk">*</span></label><br>
+                    <input type="text" id="firstName" class="inputField" name="firstName" required autofocus>
+                </div>
+                <div class="formElement lastName">
+                    <label for="lastName">Last Name<span class="asterisk">*</span></label><br>
+                    <input type="text" id="lastName" class="inputField" name="lastname" required>
+                </div>
+                <div class="formElement email">
+                    <label for="email">Email Address<span class="asterisk">*</span></label><br>
+                    <input type="email" id="signUpEmail" class="inputField" name="email" required><br>
+                </div>
+                <div class="formElement password">
+                    <label for="password">Set a Password<span class="asterisk">*</span></label><br>
+                    <input type="password" id="signUpPassword" class="inputField" name="password" required>
+                    <i class="far fa-eye-slash icon" id="signUpVisibility"></i><br>
+                </div>
+                <div class="formElement signUpButton">
+                    <input type="submit" value="Get Started" id="signUpButton">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script-sign-up.js"></script>
+</body>
+</html>
